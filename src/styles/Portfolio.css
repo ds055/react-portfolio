@@ -1,0 +1,8 @@
+.icons {
+    color: white !important;
+}
+
+.icons:hover {
+    color: black !important;
+    font-size: 72px;
+}
