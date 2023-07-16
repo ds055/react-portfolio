@@ -1,8 +1,4 @@
 import React from 'react';
-import '../styles/Portfolio.css'
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLinkedin, faTwitterSquare, faGithubSquare } from '@fortawesome/free-brands-svg-icons'
 
@@ -10,18 +6,22 @@ import { faLinkedin, faTwitterSquare, faGithubSquare } from '@fortawesome/free-b
 const styles = {
     footer: {
         display: 'flex',
+        flexDirection: 'column',
         alignItems: 'center',
         background:'#40798C',
-        height: '75px'
-    },
-    text: {
-        color: 'white',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center'
+        height: 'auto',
+        paddingTop: '15px'
     },
     icon: {
-        cursor: 'pointer'
+        padding: '0px 20px 5px 20px'
+    }, 
+    name: {
+        color: 'white'
+    },
+    linkContainer: {
+        width: '200px',
+        display: 'flex',
+        justifyContent: 'space-between'
     }
 }
 
@@ -29,15 +29,14 @@ const styles = {
 export default function Footer() {
     return (
         <div style={styles.footer}>
-            <Container >
-            <Row>
-            <Col style={styles.text}><h1>Greebert Devs</h1></Col>
-            <Col style={styles.text}><a href='https://www.linkedin.com/'><FontAwesomeIcon className='icons' icon={ faLinkedin } size='4x'/></a></Col>
-            <Col style={styles.text}><a href='https://github.com/ds055'><FontAwesomeIcon className='icons' icon={ faGithubSquare } size='4x'/></a></Col>
-            <Col style={styles.text}><a href='https://www.twitter.com/'><FontAwesomeIcon className='icons' icon={ faTwitterSquare } size='4x'/></a></Col>
-            </Row>
-            </Container>
+            <div style={styles.linkContainer}>
+                <a href='https://www.linkedin.com/'><FontAwesomeIcon className='icons'  icon={ faLinkedin } size='2x'/></a>
+                <a href='https://github.com/ds055'><FontAwesomeIcon className='icons' icon={ faGithubSquare } size='2x'/></a>
+                <a href='https://www.twitter.com/'><FontAwesomeIcon className='icons' icon={ faTwitterSquare } size='2x'/></a>
+            </div>
+            <div>
+                <p style={styles.name}>Greebert Devs</p>
+            </div>
         </div>
-
 );
 }

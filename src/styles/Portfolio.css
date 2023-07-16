@@ -4,5 +4,23 @@
 
 .icons:hover {
     color: black !important;
-    font-size: 72px;
+}
+
+.link-item {
+    list-style-type: none;
+}
+
+.link-item a {
+    text-decoration: none;
+    font-size: calc(17px + .5vw);
+    color: white;
+    cursor: pointer;
+}
+
+.active-link {
+    text-shadow: black 3px 3px 5px;
+}
+
+.inactive-link {
+    text-shadow: none;
 }

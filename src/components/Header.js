@@ -1,32 +1,36 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Nav from './Nav'
 
 const styles = {
     header: {
+        background:'#40798C',
         display: 'flex',
         alignItems: 'center',
-        background:'#40798C',
-        height: '75px'
+        justifyContent: 'center',
+        padding: '10px',
+    },
+    row: {
+        display: 'flex',
+        alignItems: 'center',
+        width: '100%'
     },
     title: {
-        
-    }
+        display: 'flex',
+        color: 'white',
+        justifyContent: 'center'
+    },
 }
 
 function Header({currentPage, handlePageChange}) {
-
     return (
 
-        <div >
-            <Container >
-            <Row>
-            <Col><h1>Drew Smith</h1></Col>
-            <Col><Nav currentPage={currentPage} handlePageChange={handlePageChange} /></Col>
+        <div style={ styles.header }>
+            <Row style={ styles.row }>
+            <Col md={3} xs={12} style={styles.title}><h1>Drew Smith</h1></Col>
+            <Col md={9} xs={12} style={styles.col}><Nav currentPage={currentPage} handlePageChange={handlePageChange} /></Col>
             </Row>
-            </Container>
         </div>
 
 );
