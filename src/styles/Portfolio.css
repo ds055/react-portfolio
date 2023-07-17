@@ -24,3 +24,43 @@
 .inactive-link {
     text-shadow: none;
 }
+
+
+/* Some of the styles needed to be written here to avoid conflicts on transitions */
+.overlay {
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.overlay > * {
+    transform: translateY(25px);
+    transition: transform 0.25s;
+}
+
+.overlay:hover {
+    opacity: 1;
+}
+
+.overlay:hover > * {
+    transform: translateY(0);
+}
+
+.projectLink {
+    font-size: calc(16px + .7vw);
+    color: white;
+    text-decoration: none;
+}
+
+.projectLink:hover {
+    color: rgb(30, 114, 122);
+}
+
+.projectIcon {
+    color: white;
+    text-decoration: none;
+}
+
+.projectIcon:hover {
+    transition: color 0.10s;
+    color: rgb(30, 114, 122);
+}

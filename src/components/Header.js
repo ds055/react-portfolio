@@ -28,7 +28,7 @@ function Header({currentPage, handlePageChange}) {
 
         <div style={ styles.header }>
             <Row style={ styles.row }>
-            <Col md={3} xs={12} style={styles.title}><h1>Drew Smith</h1></Col>
+            <Col  style={styles.title}><h1>Drew Smith</h1></Col>
             <Col md={9} xs={12} style={styles.col}><Nav currentPage={currentPage} handlePageChange={handlePageChange} /></Col>
             </Row>
         </div>
