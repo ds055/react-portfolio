@@ -25,6 +25,9 @@
     text-shadow: none;
 }
 
+.inactive-link:hover {
+    color: black;
+}
 
 /* Some of the styles needed to be written here to avoid conflicts on transitions */
 .overlay {
