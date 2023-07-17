@@ -6,6 +6,7 @@ import { faGithubSquare } from '@fortawesome/free-brands-svg-icons';
 
 const styles = {
     row: {
+        margin: 0,
         display: 'flex',
         justifyContent: 'center'
     }, 

@@ -64,3 +64,15 @@
     transition: color 0.10s;
     color: rgb(30, 114, 122);
 }
+
+.resumeDownload {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+
+.resumeDownload:hover {
+    color:  rgb(50, 220, 235);
+}
