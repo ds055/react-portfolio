@@ -1,18 +1,26 @@
 import React from 'react';
+import Col from 'react-bootstrap/Col';
+import Row from 'react-bootstrap/Row'
 
-function Project() {
+
+
+function Project({ projects }) {
     return (
-
-        <div>
-
-        </div>
-
+        <Row>
+            {projects.map((project) => (
+                <Col>
+                    <div style ={{
+                        backgroundImage: project.imgLoc,
+                        backgroundRepeat: 'no-repeat',
+                        objectFit: 'cover'
+                    }}>
+                        <a href={project.projectUrl}>${project.projectName}</a>
+                    </div>
+                </Col>
+        ))}
+        </Row>
 );
 }
 
-// quiz: https://github.com/ds055/js-quiz
-// https://github.com/ds055/collectible-database
-// https://github.com/ds055/marvel-dex
-//  https://github.com/ds055/pwa-text-editor
-// https://github.com/ds055/weather-dashboard
-// https://github.com/ds055/nosql-social-network-api
+export default Project
+
