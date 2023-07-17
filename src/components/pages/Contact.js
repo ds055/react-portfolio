@@ -18,7 +18,7 @@ export default function Contact() {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'start',
-      height: '80vh',
+      height: '85vh',
       paddingTop: '10px',
       paddingLeft: '10%',
     },
