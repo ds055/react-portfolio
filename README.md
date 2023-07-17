@@ -72,3 +72,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 For project overlay/animation
 https://www.youtube.com/watch?v=exb2ab72Xhs
+
+email test: 
+https://www.w3resource.com/javascript/form/email-validation.php#:~:text=To%20get%20a%20valid%20email,%5D%2B)*%24%2F.
+
+on blur and email test: 
+https://www.codingdeft.com/posts/react-onblur-onchange/
