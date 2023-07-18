@@ -1,6 +1,6 @@
 # React Portfolio
 
-[Link to Live App]()
+[Link to Live App](https://ds055.github.io/react-portfolio/)
 
 ## Description
 This single-page-app portfolio, created with React, displays About Me, Portfolio, Resume, and Contact me sections. 
