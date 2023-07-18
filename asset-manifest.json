@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.ab325f1d.css",
+    "main.js": "/react-portfolio/static/js/main.a101c030.js",
+    "static/media/js-quiz.png": "/react-portfolio/static/media/js-quiz.ac6b7f8ad527aeb88ac7.png",
+    "static/media/coolectibles.png": "/react-portfolio/static/media/coolectibles.9d0226fdd248daa9018e.png",
+    "static/media/Basic_Resume.docx.pdf": "/react-portfolio/static/media/Basic_Resume.docx.90503290832c5ab8ed40.pdf",
+    "static/media/marvel-dex.png": "/react-portfolio/static/media/marvel-dex.ed13c493369c04609f3b.png",
+    "static/media/avatar.png": "/react-portfolio/static/media/avatar.c62b790c78bf829e0b04.png",
+    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.0ba4cef41e029a3f029b.png",
+    "static/media/password-generator.png": "/react-portfolio/static/media/password-generator.18ed3e7d34bc11dc1af0.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.ab325f1d.css.map": "/react-portfolio/static/css/main.ab325f1d.css.map",
+    "main.a101c030.js.map": "/react-portfolio/static/js/main.a101c030.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab325f1d.css",
+    "static/js/main.a101c030.js"
+  ]
+}
