@@ -15,6 +15,7 @@ const styles = {
   }
 }
 
+// Nav uses conditions to see the current page and sets classes according to current page state
 function Nav({ currentPage, handlePageChange }) {
   return (
     <Row style={ styles.row }>

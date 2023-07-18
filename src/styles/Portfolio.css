@@ -1,10 +1,4 @@
-.icons {
-    color: white !important;
-}
-
-.icons:hover {
-    color: black !important;
-}
+/* Nav Links */
 
 .link-item {
     list-style-type: none;
@@ -16,7 +10,7 @@
     color: white;
     cursor: pointer;
 }
-
+/* Active and inactive styles are conditional based on current page */
 .active-link {
     text-shadow: black 3px 3px 5px;
 }
@@ -29,12 +23,24 @@
     color: black;
 }
 
+/* Footer */
+.icons {
+    color: white !important;
+}
+
+.icons:hover {
+    color: black !important;
+}
+
+/* Project page stylings */
 /* Some of the styles needed to be written here to avoid conflicts on transitions */
+/* Overlay is the div that pops up over the project image with the title link */
 .overlay {
     opacity: 0;
     transition: opacity 0.25s;
 }
 
+/* all overlay's children */
 .overlay > * {
     transform: translateY(25px);
     transition: transform 0.25s;
@@ -44,6 +50,7 @@
     opacity: 1;
 }
 
+/* hover state for all overlay's children */
 .overlay:hover > * {
     transform: translateY(0);
 }
@@ -68,6 +75,7 @@
     color: rgb(30, 114, 122);
 }
 
+/* Resume Styling */
 .resumeDownload {
     color: black;
     text-decoration: none;

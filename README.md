@@ -1,80 +1,34 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Link to Live App]()
 
-## Available Scripts
+## Description
+This single-page-app portfolio, created with React, displays About Me, Portfolio, Resume, and Contact me sections. 
 
-In the project directory, you can run:
+## Screenshot
+![App Screenshot](./src/images/screenshot.png)
 
-### `npm start`
+## Installation
+* N/A
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+* Navigate to the website. 
+* The About Me section will load. 
+* Click on the desired navigation link to load the desired component. 
+* On the Portfolio page, the title should appear when hovering over the project photo. 
+* To see the live project, click the project's title. 
+* To see the repo for the project, click on the GitHub icon below the stack used. 
+* On the Resume page, users can download my resume (sample doc) via the download link at the top. 
+* On the Contact Me page, the name, email, and message are required elements. Users will receive an alert if these fields are left with invalid responses. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## References
+* Referenced Activity 24 from Unit 20
+* Referenced Mini Project code from Unit 20
+* Assistance from the instructor
+* [For project overlay/animation](https://www.youtube.com/watch?v=exb2ab72Xhs)
+* [For email Regex](https://www.w3resource.com/javascript/form/email-validation.php)
+* [For on-blur and email testing](https://www.codingdeft.com/posts/react-onblur-onchange/)
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-For project overlay/animation
-https://www.youtube.com/watch?v=exb2ab72Xhs
-
-email test: 
-https://www.w3resource.com/javascript/form/email-validation.php#:~:text=To%20get%20a%20valid%20email,%5D%2B)*%24%2F.
-
-on blur and email test: 
-https://www.codingdeft.com/posts/react-onblur-onchange/
+## License
+Please refer to the license in the repo.
+- - -

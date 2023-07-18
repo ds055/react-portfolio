@@ -8,6 +8,7 @@ import Resume from './pages/Resume';
 import '../styles/Portfolio.css'
 
 export default function PortfolioContainer() {
+  // create currentPage state and set its default to About
   const [currentPage, setCurrentPage] = useState('About');
 
   // Checks current page and renders appropriate page
@@ -24,6 +25,7 @@ export default function PortfolioContainer() {
     return <Contact />;
   };
 
+  // on page change, sets current page
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (

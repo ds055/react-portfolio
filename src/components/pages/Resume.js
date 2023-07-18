@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Row, Col } from 'react-bootstrap';
+// resume file
 import resumeFile from '../../files/Basic_Resume.docx.pdf'
 import '../../styles/Portfolio.css'
 
 export default function Resume() {
-
   const styles = {
     row: {
       margin: 0,
@@ -40,8 +40,11 @@ export default function Resume() {
   return (
     <Row style={styles.row}>
       <Col xs={12} md={8} style={styles.col}>
+        {/* "Page" title */}
         <h2 style={styles.heading}>My Resume</h2>
+        {/* Resume download link */}
         <a className="resumeDownload" href={resumeFile} download> Download my resume</a>
+        {/* Front-end Subheading and list */}
         <h3 style={styles.subheading}>Front-end Proficiencies</h3>
         <ul style={styles.list}>
           <li>HTML</li>
@@ -51,6 +54,7 @@ export default function Resume() {
           <li>React</li>
           <li>Bootstrap</li>
         </ul>
+        {/* Back-end Subheading and list */}
         <h3 style={styles.subheading}>Back-end Proficiencies</h3>
         <ul style={styles.list}>
           <li>APIs</li>

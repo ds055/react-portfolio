@@ -1,6 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import '../../styles/Portfolio.css'
 import avatar from '../../images/avatar.png'
 
 export default function About() {
@@ -35,12 +34,15 @@ export default function About() {
     }
   }
 
-
+// About me component
   return (
     <Row style={styles.row}>
       <Col style={styles.col}>
+        {/* {Header} */}
         <h2 style={styles.heading}>About Me</h2>
+        {/* Avatar Img */}
         <img src={avatar} alt='avatar of the developer' style={styles.img}/>
+        {/* Bio */}
         <p style={styles.p}>Hello! My name is Drew Smith, and I live in Middle-of-Nowhere, Tennessee. Here in Middle-of-Nowhere, I work in education. And now I'm embarking on the journey to learn coding. To be honest, it's certainly a mountainous climb, and while I'm struggling up the cliff side, I know that standing atop this crag will reveal a whole new landscape I've heretofore yet to see. Thanks for joining me at this particular campsite on my way to the summit. It's nice to meet you!</p>
       </Col>
     </Row>

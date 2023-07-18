@@ -25,14 +25,15 @@ const styles = {
 
 function Header({currentPage, handlePageChange}) {
     return (
-
+        // Header container
         <div style={ styles.header }>
             <Row style={ styles.row }>
+            {/* Header Title--my name */}
             <Col  style={styles.title}><h1>Drew Smith</h1></Col>
+            {/* Nav component imported */}
             <Col md={9} xs={12} style={styles.col}><Nav currentPage={currentPage} handlePageChange={handlePageChange} /></Col>
             </Row>
         </div>
-
 );
 }
 

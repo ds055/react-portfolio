@@ -1,6 +1,7 @@
 import React from 'react';
 import Project from '../Project'
 
+// Project images
 import jsImg from '../../images/js-quiz.png'
 import coolectibles from '../../images/coolectibles.png'
 import marvelDex from '../../images/marvel-dex.png'
@@ -8,6 +9,8 @@ import passwordGen from '../../images/password-generator.png'
 import pwaTextEditor from '../../images/pwa-text-editor.png'
 import weather from '../../images/weather-dashboard.png'
 
+// Arr containing each project's info: image location, url of repo, name, alt for image, 
+// live url, and stack used
 const projectArr = [
   { id: 0,
     imgLoc: jsImg,
@@ -57,9 +60,9 @@ const projectArr = [
     deployedUrl: 'https://ds055.github.io/password_generator/',
     stack: 'JavaScript & HTML'
   },
-
 ]
 
+// Use project component to populate portfolio page
 export default function Portfolio() {
   return (
     <div>
